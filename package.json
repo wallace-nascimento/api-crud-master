@@ -5,7 +5,8 @@
   "main": "",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "vercel-build": "npx models deploy"
   },
   "author": "",
   "license": "ISC",
